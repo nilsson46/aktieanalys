@@ -4,8 +4,25 @@
   }
   
   .search-bar input[type="text"] {
-    width: 100%;
+    width:100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    }
+    .dropdown { 
+      position: relative; 
+      display: inline-block; 
+      background-color: #aa5858; /* Change this to your desired background color */
+    
+      cursor: pointer;
+    }
+    .dropdown-item {
+      background-color: #6e1818; /* Change this to your desired background color */
+      padding: 10px;
+      cursor: pointer;
+      padding: 10px;
+      border: 1px solid #ffffff; /* Change this to your desired border color */
+    }
+    .dropdown-item:hover {
+      background-color: #e0e0e0; /* Change this to your desired hover background color */
     }
